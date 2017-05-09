@@ -1,0 +1,7 @@
+.super-cool-background-that-SHOULD-animate-on-hover {
+    background: linear-gradient( #fff, #ccc );
+    transition: all 0.45s;
+    &:hover{
+      background: linear-gradient( #ccc, #fff );
+    }
+  }
